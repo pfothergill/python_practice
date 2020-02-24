@@ -19,3 +19,4 @@ def GCcontent(dna):
     return ((numG + numC) / (numG + numC + numT + numA)) * 100
 
 print(GCcontent('atgccagccgtagaatcagt'))
+print(GCcontent('atgccagtttgggca'))
