@@ -9,14 +9,18 @@ def GCcontent(dna):
     # assume that the input is a DNA sequence encoded
     # in a string, and make sure it's all uppercase:
     dna = dna.upper()
-    
+
     #count the occurances of each nucleotide
     numG = dna.count("G")
     numC = dna.count("C")
     numT = dna.count("T")
     numA = dna.count("A")
 
+    # return the percentage of G's and C's in the DNA sequence
     return ((numG + numC) / (numG + numC + numT + numA)) * 100
+
+
+
 
 print(GCcontent('atgccagccgtagaatcagt'))
 print(GCcontent('atgccagtttgggca'))
