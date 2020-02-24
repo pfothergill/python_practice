@@ -17,3 +17,5 @@ def GCcontent(dna):
     numA = dna.count("A")
 
     return ((numG + numC) / (numG + numC + numT + numA)) * 100
+
+print(GCcontent('atgccagccgtagaatcagt'))
