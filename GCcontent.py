@@ -20,3 +20,4 @@ def GCcontent(dna):
 
 print(GCcontent('atgccagccgtagaatcagt'))
 print(GCcontent('atgccagtttgggca'))
+print(GCcontent('gggcccggcccggggccc'))
