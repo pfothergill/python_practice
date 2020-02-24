@@ -4,7 +4,7 @@
 
 This repository contains scripts that will aid in practicing during Thursday's workshop over our Python 3 module!
 
-To clone repository:
+**To clone repository:**
 ```
 git clone https://github.com/pfothergill/python_practice.git
 ```
