@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-n = 3 # n is the number of rows in the pyramid. Change this line to get more rows!
+n = 15 # n is the number of rows in the pyramid. Change this line to get more rows!
 
 # iterate as many times as specified by n (1 iteration == 1 row so if n = 3 then there will be 3 iterations)
 # i will start at 0 and then start the loop
